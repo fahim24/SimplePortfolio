@@ -47,11 +47,20 @@ h2 {
 }
 .orangeborder {
 	margin: 50px;
-	outline: 10px outset gray;
-	border-left: 5px solid orange;
+	border-left: 5px solid;
+	border-image: linear-gradient(tomato, orange);
+	border-image-slice: 1;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px gray;
 }
 .blueborder {
 	margin: 50px;
-	outline: 10px outset gray;
-	border-left: 5px solid blue;
+	border-left: 5px solid;
+	border-image: linear-gradient(blue, cyan);
+	border-image-slice: 1;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px gray;
+}
+footer p {
+	text-align: center;
 }
